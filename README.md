@@ -1,1 +1,3 @@
-# homeassistant-wallet
+# Wallet for Home Assistant
+
+## Installation

@@ -1,0 +1,11 @@
+{
+  "codeowners": ["jeanbie0"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/jeanbie0/homeassistant-wallet",
+  "domain": "wallet",
+  "iot_class": "calculated",
+  "name": "Wallet",
+  "requirements": [],
+  "version": "1.0.0"
+}
