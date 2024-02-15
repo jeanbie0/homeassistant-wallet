@@ -82,7 +82,7 @@ class ItemWalletSensor(Entity):
 
     async def async_update(self):
         try:
-            # TODO update
+            self.value = self.value + 1
             
         except ():
             self._available = False
