@@ -1,6 +1,6 @@
 {
-  "codeowners": ["jeanbie0"],
-  "config_flow": false,
+  "codeowners": ["@jeanbie0"],
+  "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/jeanbie0/homeassistant-wallet",
   "domain": "wallet",

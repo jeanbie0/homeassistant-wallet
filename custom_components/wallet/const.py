@@ -1,3 +1,16 @@
 DOMAIN = "wallet"
 
-CONF_VALUE = "value"
+CONF_SAVING = "saving"
+CONF_STOCK = "stock"
+CONF_CRYPTO = "crypto"
+CONF_ITEMS = "items"
+CONF_AMOUNT = "amount"
+CONF_ITEM_NAME = "item_name"
+
+ATTR_AMOUNT = "amount"
+ATTR_WALLET = "wallet"
+ATTR_TYPE = "type"
+ATTR_URL = "url"
+ATTR_RATE = "rate"
+ATTR_ENTITY_TRACKER = "entity_tracker"
+ATTR_STATE_CLASS = "state_class"

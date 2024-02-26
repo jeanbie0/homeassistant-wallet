@@ -1,0 +1,9 @@
+set_amount:
+  description: Set the amount for a specific wallet entity.
+  fields:
+    entity_id:
+      description: The ID of the wallet entity.
+      example: "sensor.my_item_wallet_sensor"
+    value:
+      description: The new amount to set.
+      example: 123.45

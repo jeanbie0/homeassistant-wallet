@@ -1,0 +1,45 @@
+{
+    "config": {
+        "error": {
+            "bad_entity": "Bad entity",
+            "unknown": "Unknown error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "name": "Wallet name",
+                    "url": "Url (Optional)",
+                    "type": "Type"
+                },
+                "description": "Enter your wallet name",
+                "title": "Wallet"
+            },
+            "item": {
+                "data": {
+                    "item_name": "Name",
+                    "amount": "Amount",
+                    "entity_id": "Entity",
+                    "add_another": "Add another"
+                },
+                "description": "Enter item informations",
+                "title": "Item"
+            }
+        }
+    },
+    "services": {
+        "set_amount": {
+            "name": "Set amount",
+            "description": "Set the amount for a specific wallet entity.",
+            "fields": {
+                "entity_id": {
+                    "name": "Entity ID",
+                    "description": "The ID of the wallet entity."
+                },
+                "value": {
+                    "name": "Value",
+                    "description": "The new amount to set."
+                }
+            }
+        }
+    }
+}
